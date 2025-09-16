@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+</head>
+<body>
+    <h1><%= title %></h1>
+    
+    <!-- Navigation -->
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/about">About</a> |
+        <a href="/contact">Contact</a> |
+        <a href="/features">Features</a> |
+        <a href="/user/John">User Page</a>
+    </nav>
+    
+    <h2>All Features Demo</h2>
+    
+    <h3>1. File Download</h3>
+    <a href="/download" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Download Sample File</a>
+    
+    <h3>2. API Endpoint</h3>
+    <p>Check out our API endpoint:</p>
+    <a href="/api/time" target="_blank">/api/time (JSON response)</a>
+    
+    <h3>3. Route Parameters</h3>
+    <p>Try different user names:</p>
+    <a href="/user/Alice">Alice</a> |
+    <a href="/user/Bob">Bob</a> |
+    <a href="/user/Charlie">Charlie</a>
+    
+    <h3>4. Form Submission</h3>
+    <p>Visit the <a href="/contact">Contact page</a> to try the form.</p>
+    
+    <h3>5. Static File Serving</h3>
+    <p>Static files are served from the /public directory.</p>
+    
+    <h3>6. Middleware Features</h3>
+    <ul>
+        <li>Request logging to console</li>
+        <li>Error handling</li>
+        <li>Form data parsing</li>
+        <li>Static file serving</li>
+    </ul>
+</body>
+</html>
