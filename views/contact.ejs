@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+</head>
+<body>
+    <h1><%= title %></h1>
+    
+    <!-- Navigation -->
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/about">About</a> |
+        <a href="/contact">Contact</a> |
+        <a href="/user/John">User Page</a>
+    </nav>
+    
+    <h2>Contact Us</h2>
+    <p>Send us a message using the form below:</p>
+    
+    <!-- Contact Form -->
+    <form action="/contact" method="POST">
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+        </div><br>
+        
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div><br>
+        
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        </div><br>
+        
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
