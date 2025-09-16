@@ -1,0 +1,9 @@
+This is a sample file for download demonstration.
+Created for ALAB 318.2.1 Express Application.
+
+Features demonstrated:
+- Static file serving
+- File download functionality
+- Express middleware
+
+Downloaded on: <%= new Date().toISOString() %>
